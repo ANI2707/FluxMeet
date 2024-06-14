@@ -17,6 +17,7 @@ const HomeLayout = ({children}:{children:ReactNode}) => {
         </div>
         
         
+        
     </main>
   )
 }
