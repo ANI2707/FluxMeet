@@ -25,7 +25,7 @@ const MobileNav = () => {
             className="cursor-pointer sm:hidden"
           />
         </SheetTrigger>
-        <SheetContent side="left" className="border-none bg-dark-1">
+        <SheetContent side="left" className="border-none bg-dark-1 text-white">
           <Link href="/" className="flex item-center gap-1">
             <Image
               src="/icons/logo.svg"
