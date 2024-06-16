@@ -65,7 +65,7 @@ const MeetingRoom = () => {
         
         <DropdownMenuContent className="border-drak-1 bg-dark-1 text-white ">
           {['Grid','Speaker-Left','Speaker-Right'].map((item,index)=>(
-              <DropdownMenuItem className="cursor-pointer" onClick={()=>{
+              <DropdownMenuItem key={index} className="cursor-pointer" onClick={()=>{
                 setLayout(item.toLowerCase() as CallLayoutType)
               }}>
                 {item}
